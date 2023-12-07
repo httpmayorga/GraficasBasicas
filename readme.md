@@ -1,0 +1,5 @@
+Carga de datos y manipulación: Se inicia definiendo un conjunto de datos que representa las notas de los estudiantes en diferentes materias, identificadores, y si aprobaron o no. Luego, se crea un DataFrame de Pandas para organizar y manipular estos datos.
+
+Visualización con Boxplot: El programa genera un boxplot usando Matplotlib para visualizar la distribución de las notas de los estudiantes por materia. Utiliza la función boxplot() de Pandas para generar gráficos por cada materia, mostrando la distribución de notas, y ajusta etiquetas, títulos y formato del gráfico para una mejor presentación visual.
+
+Visualización con Pie Chart: Después del boxplot, el programa crea un pie chart con Matplotlib para mostrar la proporción de estudiantes que han aprobado y los que no han aprobado. Utiliza datos filtrados para contar la cantidad de aprobados y no aprobados, luego genera el gráfico con la función pie() y ajusta colores, etiquetas, título y proporciones para presentar la información de forma clara y visualmente atractiva.
