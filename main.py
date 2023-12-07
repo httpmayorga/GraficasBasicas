@@ -37,7 +37,7 @@ labels = ['Aprobados', 'No Aprobados']
 sizes = [cantidad_aprobados, cantidad_no_aprobados]
 colors = ['#ff9999', '#66b3ff']
 plt.figure(figsize=(8, 6))
-plt.pie(sizes, labels=labels, colors=colors)
+plt.pie([cantidad_aprobados, cantidad_no_aprobados], labels=['Aprobados', 'No Aprobados '], colors=['#ff9999', '#66b3ff'], autopct='%1.1f%%')
 plt.title('Distribución de Estudiantes Aprobados y No Aprobados')
 plt.axis('equal')
 plt.show()
